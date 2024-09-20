@@ -1,0 +1,472 @@
+<!-- Please Note
+The project design is inspired from a Resume made by Adithya Sharma
+and not my design -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Internal Style -->
+    <style>
+      .main_header_class {
+        display: flex;
+        width: 100%;
+        background-color: black;
+        padding: 0px;
+        margin: 0px;
+      }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- External Style -->
+    <link rel="stylesheet" href="./Styles/CommonStyles.css">
+    <link rel="stylesheet" href="./Styles/AboutMe.css">
+    <!-- Google Fonts     -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fuggles&family=Pixelify+Sans&family=Young+Serif&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&family=Tilt+Prism&family=Young+Serif&display=swap"
+      rel="stylesheet"
+    >
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <style>
+      hr {
+        height: 5px;
+        background-color: red;
+        border: none;
+      }
+      .hobbies_class {
+        max-width: 250px;
+        padding: 10px;
+        margin: 10px;
+        text-align: center;
+      }
+      .image-container {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+      }
+    </style>
+    <title>My Digital Odyssey</title>
+  </head>
+  <body class="body_frame">
+    <!-- Header Tags  -->
+    <header>
+          <div class="main_header_class">
+            <div>
+              <h1 class="name_header">Joel Ukran Sajan</h1>
+              <p class="name_header" style="margin-bottom: 0px">
+                Aspiring Web Developer
+              </p>
+              <div style="display: flex; flex-wrap: wrap; margin: 10px 0px">
+                <div style="display: flex">
+                  <img
+                    class="info_icons"
+                    src="./Images/Icons/Location_Icon.png"
+                    alt="Location Icon"
+                  >
+                  <p>
+                    <a
+                      class="nav_alignment_and_style"
+                      href="https://en.wikipedia.org/wiki/Thrissur"
+                      >Thrissur, Kerala, India</a
+                    >
+                  </p>
+                </div>
+                <div style="display: flex">
+                  <img
+                    class="info_icons"
+                    src="./Images/Icons/Send_Icon.png"
+                    alt="Send_Icon"
+                  >
+                  <p>
+                    <a
+                      class="nav_alignment_and_style"
+                      href="mailto:joel.ukransajan@ucdconnect.ie?cc=joelsajan28@gmail.com&subject="
+                      >joelsajan28@gmail.com</a
+                    >
+                  </p>
+                </div>
+                <div style="display: flex">
+                  <img
+                    class="info_icons"
+                    src="./Images/Icons/Call_Icon.png"
+                    alt="Call_Icon"
+                  >
+                  <p>
+                    <a class="nav_alignment_and_style" href="tel:0899882569"
+                      >+353 899882569</a
+                    >
+                  </p>
+                </div>
+                <div style="display: flex">
+                  <img
+                    class="info_icons"
+                    src="./Images/Icons/Github_Icon.png"
+                    alt="Github_Icon"
+                  >
+                  <p>
+                    <a
+                      class="nav_alignment_and_style"
+                      href="https://github.com/JoelUkranSajan"
+                      >Github</a
+                    >
+                  </p>
+                </div>
+                <div style="display: flex">
+                  <img
+                    class="info_icons"
+                    src="./Images/Icons/LinkedIn_Icon.png"
+                    alt="LinkedIn_Icon"
+                  >
+                  <p>
+                    <a
+                      class="nav_alignment_and_style"
+                      href="https://www.linkedin.com/in/joel-ukran-sajan-8a4092175/"
+                      >Linkedin</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+      </header>
+
+    <!-- Nav Tags  -->
+    <div>
+      <ul>
+        <li>
+          <a class="nav_alignment_and_style" href="./Pages/ContactMe.html"
+            >Contact</a
+          >
+        </li>
+        <li><a class="nav_alignment_and_style" href="#">About</a></li>
+        <li>
+          <a class="nav_alignment_and_style" href="./Pages/Work_Experience.html"
+            >Work Experience</a
+          >
+        </li>
+        <li>
+          <a class="nav_alignment_and_style" href="./Pages/Education.html"
+            >Education</a
+          >
+        </li>
+        <li>
+          <a class="nav_alignment_and_style" href="./Pages/Achievements.html"
+            >Achievements</a
+          >
+        </li>
+      </ul>
+    </div>
+
+    <div class="aboutme_frame_class">
+      <!-- Images -->
+      <div class="images_frame">
+        <img
+          class="rotate-image"
+          src="./Images/Photos/Instagram/IMG_20221120_172845_693.jpg"
+          alt="Black Shirt Selfie"
+        >
+        <img
+          class="rotate-image"
+          src="./Images/Photos/Instagram/IMG_20221127_130558_254.jpg"
+          alt="Badminton Group Photo"
+        >
+        <img
+          class="rotate-image"
+          src="./Images/Photos/Instagram/IMG_20221211_220315_099.jpg"
+          alt="Ian Bailey Photo"
+        >
+        <img
+          class="rotate-image"
+          src="./Images/Photos/Instagram/IMG_20221216_214718_037.jpg"
+          alt="Anko Party Photo"
+        >
+        <img
+          class="rotate-image"
+          src="./Images/Photos/Instagram/IMG_20230211_071503_184.jpg"
+          alt="Sunrise Photo"
+        >
+        <img
+          class="rotate-image"
+          src="./Images/Photos/Instagram/IMG_20230518_231015_958.jpg"
+          alt="Fire Drill Photo"
+        >
+        <img
+          class="rotate-image"
+          src="./Images/Photos/Instagram/IMG_20230613_170813_662.jpg"
+          alt="Badminton Group Photo"
+        >
+        <img
+          class="rotate-image"
+          src="./Images/Photos/Instagram/IMG_20230613_170813_765.jpg"
+          alt="Badminton Group Photo"
+        >
+        <img
+          class="rotate-image"
+          src="./Images/Photos/Instagram/IMG_20230613_172652_777.jpg"
+          alt="About Me Photo"
+        >
+        <img
+          class="rotate-image"
+          src="./Images/Photos/Instagram/IMG_20230613_172652_898.jpg"
+          alt="About Me Photo"
+        >
+        <img
+          class="rotate-image"
+          src="./Images/Photos/Instagram/IMG_20230613_172652_941.jpg"
+          alt="About Me Photo"
+        >
+        <img
+          class="rotate-image"
+          src="./Images/Photos/Instagram/IMG_20230616_012759_423.jpg"
+          alt="About Me Photo"
+        >
+        <img
+          class="rotate-image"
+          src="./Images/Photos/Instagram/IMG_20230616_014146_124.jpg"
+          alt="About Me Photo"
+        >
+        <img
+          class="rotate-image"
+          src="./Images/Photos/Instagram/IMG_20230616_014146_202.jpg"
+          alt="About Me Photo"
+        >
+        <img
+          class="rotate-image"
+          src="./Images/Photos/Instagram/IMG_20230616_015502_487.jpg"
+          alt="About Me Photo"
+        >
+        <img
+          class="rotate-image"
+          src="./Images/Photos/Instagram/IMG_20230616_015502_601.jpg"
+          alt="About Me Photo"
+        >
+        <img
+          class="rotate-image"
+          src="./Images/Photos/Instagram/IMG_20230616_015502_697.jpg"
+          alt="About Me Photo"
+        >
+        <img
+          class="rotate-image"
+          src="./Images/Photos/Instagram/IMG_20230616_015502_956.jpg"
+          alt="About Me Photo"
+        >
+        <img
+          class="rotate-image"
+          src="./Images/Photos/Instagram/IMG_20230724_220534_398.jpg"
+          alt="About Me Photo"
+        >
+        <img
+          class="rotate-image"
+          src="./Images/Photos/Instagram/IMG_20230821_082424_542.jpg"
+          alt="About Me Photo"
+        >
+        <img
+          class="rotate-image"
+          src="./Images/Photos/Instagram/IMG_20230821_082424_762.jpg"
+          alt="About Me Photo"
+        >
+        <img
+          class="rotate-image"
+          src="./Images/Photos/Instagram/IMG_20230821_082424_839.jpg"
+          alt="About Me Photo"
+        >
+        <img
+          class="rotate-image"
+          src="./Images/Photos/Instagram/IMG_20230821_082425_014.jpg"
+          alt="About Me Photo"
+        >
+        <img
+          class="rotate-image"
+          src="./Images/Photos/Instagram/IMG_20230821_093512_159.jpg"
+          alt="About Me Photo"
+        >
+        <img
+          class="rotate-image"
+          src="./Images/Photos/Instagram/IMG_20230821_093512_189.jpg"
+          alt="About Me Photo"
+        >
+        <img
+          class="rotate-image"
+          src="./Images/Photos/Instagram/IMG_20230821_093512_219.jpg"
+          alt="About Me Photo"
+        >
+        <img
+          class="rotate-image"
+          src="./Images/Photos/Instagram/IMG_20230821_093512_245.jpg"
+          alt="About Me Photo"
+        >
+        <img
+          class="rotate-image"
+          src="./Images/Photos/Instagram/IMG_20230821_093512_287.jpg"
+          alt="About Me Photo"
+        >
+      </div>
+
+      <div>
+          <div style="padding: 30px; margin: 0px; text-align: center;">
+            <img
+              class="border_white"
+              src="./Images/Photos/Joel_Sajan_Anko.jpeg"
+              alt="Background Image"
+              style="padding: 0px; height: 20%; width: 100%; border-radius: 20%;"
+            >
+            <div>
+              <img
+                class="border_white"
+                src="./Images/Photos/Joel_Sajan.jpeg"
+                alt="Profile Image"
+                style="
+                  margin-top: -10%;
+                  border-radius: 50%;
+                  height: 25%;
+                  width: 25%;
+                "
+              >
+            </div>
+          </div>
+      </div>
+      <div class="flex_center_align" style="text-align: center;">
+        <div class="border_white netflix_frame red_box_frame_shadow">
+          <p class="red_text_id"><b>Hello World!</b></p>
+          <p style="color: white; font-size: 20px; margin-top: 0px">
+            "I am a passionate software developer dedicated to crafting clean,
+            efficient, and innovative code to solve complex problems. With a
+            strong foundation in programming languages and a flair for
+            creativity, I strive to deliver software solutions that exceed
+            expectations."
+          </p>
+        </div>
+    </div>
+    </div>
+    <p
+      class="flex_center_align pixel_font red_text_id"
+      style="padding-top: 5%"
+    >
+      <b>Hobbies</b>
+    </p>
+    <hr style="background-color: red">
+    <div
+      style="
+        max-width: 1500px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+      "
+    >
+      <div
+        class="border_white netflix_frame red_box_frame_shadow hobbies_class"
+        style="color: white"
+      >
+        <p class="zero_padding_zero_margin red_text_id">
+          <b>Cycling <span style="color: black">♠</span></b>
+        </p>
+        <h3>
+          <b
+            >Cycling in Dublin and throughout Ireland offers a unique and
+            picturesque experience. From the charming streets of Dublin, where
+            historic architecture meets vibrant culture, to the breathtaking
+            landscapes of the Irish countryside, cyclists can explore it all.</b
+          >
+        </h3>
+      </div>
+      <div
+        class="border_white netflix_frame red_box_frame_shadow hobbies_class"
+        style="color: white"
+      >
+        <p class="zero_padding_zero_margin red_text_id">
+          <b>Trekking ♦</b>
+        </p>
+        <h3>
+          <b
+            >Exploring the scenic trails of Bangalore's lush landscapes, I find
+            solace in the early morning glow, where each trek becomes a canvas
+            for witnessing nature's masterpiece. Sunrise hikes in India,
+            especially in Bengaluru, inspire me to embrace the beauty of each
+            new day.</b
+          >
+        </h3>
+      </div>
+
+      <div
+        class="border_white netflix_frame red_box_frame_shadow hobbies_class"
+        style="color: white"
+      >
+        <p class="zero_padding_zero_margin red_text_id">
+          <b>Badminton <span style="color: black">♣</span></b>
+        </p>
+        <h3>
+          <b
+            >Badminton is more than just a hobby; it's a source of exhilaration
+            and skill refinement. The rapid back-and-forth rallies, the
+            strategic positioning, and the joy of smashing that shuttlecock over
+            the net make it a dynamic and rewarding pastime that fosters fitness
+            and friendly competition.
+          </b>
+        </h3>
+      </div>
+
+      <div
+        class="border_white netflix_frame red_box_frame_shadow hobbies_class"
+        style="color: white"
+      >
+        <p class="zero_padding_zero_margin red_text_id">
+          <b>Movies ♥</b>
+        </p>
+        <h3>
+          <b>
+            Watching movies allows one to explore diverse genres, cultures, and
+            emotions, all from the comfort of a screen. Whether seeking
+            entertainment, inspiration, or simply relaxation, the art of cinema
+            has a universal appeal that brings people together to share in the
+            magic of storytelling.</b
+          >
+        </h3>
+      </div>
+    </div>
+    <p
+      class="flex_center_align pixel_font pixel_font red_text_id"
+      style="padding-top: 5%"
+    >
+      <b>Languages</b>
+    </p>
+    <hr>
+    <div class="flex_center_align" style="text-align: center;">
+        <div
+          class="border_white netflix_frame red_box_frame_shadow"
+          style="color: white; max-width: 250px;"
+        >
+          <h3><b>English</b></h3>
+          <h3><b>Malayalam (Native)</b></h3>
+          <h3><b>Hindi</b></h3>
+          <h3><b>Tamil</b></h3>
+          <h3><b>Kannada</b></h3>
+          <h3><b>Telugu</b></h3>
+          <h3>
+            <b>German <br>
+              (Goethe A1 Cert)</b
+            >
+          </h3>
+        </div>
+    </div>
+    <!-- Footer Tags  -->
+    <footer>
+     <hr style="margin-top: 2%; background-color: white; height: 1px;">
+     <div class="flex_center_align">
+       <p style="color: white; text-align: center;">
+         "Crafting Tomorrow's Masterpieces, One Pixel at a Time."
+       </p>
+     </div>
+    </footer>
+  </body>
+</html>

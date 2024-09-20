@@ -1,0 +1,67 @@
+#anko_video_id
+{
+    padding: 0px;
+    margin: 0px;
+    width: 90%;  
+    max-width: 800px; 
+    border-radius: 30px; 
+    margin-left: 0%; 
+    margin-top: 2%;
+}
+
+.anko_video_class
+{
+    padding-top: 6%;
+    position: relative;
+}
+
+.anko_icon
+{
+    margin-top: -10%; 
+    border-radius: 50%; 
+    height: 15%; 
+    width: 25%; 
+    max-width: 200px; 
+    position: relative;
+    transition: transform .5s;
+}
+
+.anko_icon:hover
+{
+    transform: scale(1.2);
+}
+
+.recommondations_image_class
+{
+    max-width: 280px; 
+    width: 50%; 
+    height: 50%;
+    border-radius: 50%;
+}
+
+.recommondations_signature_class
+{
+    color: white; 
+    font-size: 1rem;
+    padding: 20px;
+    align-self: center;
+    max-width: 450px;
+}
+
+.recommendations_box
+{
+    max-width: 400px; 
+    border-radius: 10%;
+    padding-top: 5%;
+    transition: transform .5s ease-in-out; 
+    align-content: center;
+    text-align: center;
+}
+
+.recommendations_box:hover
+{
+    background-color: #414141;
+    margin : -10px -10px;
+    transform: scale(1.1);
+}
+

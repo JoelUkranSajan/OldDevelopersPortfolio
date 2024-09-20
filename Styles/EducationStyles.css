@@ -1,0 +1,21 @@
+#date_button
+{
+    overflow: hidden;
+    overflow-wrap: break-word;
+}
+
+.date_align
+{
+    overflow: hidden; 
+    display: flex; 
+    justify-content: center;
+}
+
+.main_header_class 
+{
+    display: flex;
+    width: 100%;
+    background-color: black;
+    padding: 0px;
+    margin: 0px;
+}

@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- External Style -->
+    <link rel="stylesheet" href="../Styles/CommonStyles.css">
+    <link rel="stylesheet" href="../Styles/EducationStyles.css">
+    <!-- Google Fonts     -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" >
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fuggles&family=Pixelify+Sans&family=Young+Serif&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&family=Tilt+Prism&family=Young+Serif&display=swap"
+      rel="stylesheet"
+    >
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Styles taken or inspired from W3 schools -->
+    <style>
+      .date_button {
+        height: 20px;
+        width: auto;
+        padding: 0px;
+        border-color: white;
+        color: white;
+        background-color: #232323;
+        overflow-x: hidden;
+      }
+      .college_name {
+        color: red;
+        padding-left: 0px;
+        padding-top: 0;
+        margin: 0px;
+        margin-bottom: 5%;
+        font-size: 20px;
+        font-family: "Young Serif", serif;
+      }
+      .table_flex
+      {
+        border-collapse: collapse; display: flex; justify-content: center
+      }
+      .zero_padding_zero_margin {
+        padding: 0px;
+        margin: 0px;
+      }
+      .vertical_red_line {
+        height: 450px;
+        width: 10%;
+        margin-top: 0px;
+        background-color: red;
+        margin-right: -20px;
+      }
+      .circle {
+        border-radius: 50%;
+        width: 100%; /* Adjust the percentage as needed */
+        height: 100%;
+        padding-top: 100%;
+        position: relative;
+        background-color: red;
+      }
+      .up_arrow {
+        margin: 0px;
+        padding: 0px;
+        width: 0;
+        height: 0;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 15px solid red;
+      }
+      .college_box {
+        background-color: #414141;
+        color: white;
+        padding: 5%;
+        margin: 0;
+        position: relative;
+        border-radius: 10%;
+      }
+    </style>
+    <title>My Digital Odyssey</title>
+  </head>
+  <body class="body_frame">
+    <!-- Header Tags  -->
+    <header>
+      <article>
+        <div class="main_header_class">
+          <div>
+            <h1 class="name_header">Joel Ukran Sajan</h1>
+            <p class="name_header" style="margin-bottom: 0px">
+              Aspiring Web Developer
+            </p>
+            <div style="display: flex; flex-wrap: wrap; margin: 10px 0px">
+              <div style="display: flex">
+                <img
+                  class="info_icons"
+                  src="../Images/Icons/Location_Icon.png"
+                  alt="Location Icon"
+                >
+                <p>
+                  <a
+                    class="nav_alignment_and_style"
+                    href="https://en.wikipedia.org/wiki/Thrissur"
+                    >Thrissur, Kerala, India</a
+                  >
+                </p>
+              </div>
+              <div style="display: flex">
+                <img
+                  class="info_icons"
+                  src="../Images/Icons/Send_Icon.png"
+                  alt="Send_Icon"
+                >
+                <p>
+                  <a
+                    class="nav_alignment_and_style"
+                    href="mailto:joel.ukransajan@ucdconnect.ie?cc=joelsajan28@gmail.com&subject="
+                    >joelsajan28@gmail.com</a
+                  >
+                </p>
+              </div>
+              <div style="display: flex">
+                <img
+                  class="info_icons"
+                  src="../Images/Icons/Call_Icon.png"
+                  alt="Call_Icon"
+                >
+                <p>
+                  <a class="nav_alignment_and_style" href="tel:0899882569"
+                    >+353 899882569</a
+                  >
+                </p>
+              </div>
+              <div style="display: flex">
+                <img
+                  class="info_icons"
+                  src="../Images/Icons/Github_Icon.png"
+                  alt="Github_Icon"
+                >
+                <p>
+                  <a
+                    class="nav_alignment_and_style"
+                    href="https://github.com/JoelUkranSajan"
+                    >Github</a
+                  >
+                </p>
+              </div>
+              <div style="display: flex">
+                <img
+                  class="info_icons"
+                  src="../Images/Icons/LinkedIn_Icon.png"
+                  alt="LinkedIn_Icon"
+                >
+                <p>
+                  <a
+                    class="nav_alignment_and_style"
+                    href="https://www.linkedin.com/in/joel-ukran-sajan-8a4092175/"
+                    >Linkedin</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+    </header>
+
+    <!-- Nav Tags  -->
+    <div>
+      <ul>
+        <li>
+          <a class="nav_alignment_and_style" href="./ContactMe.html">Contact</a>
+        </li>
+        <li>
+          <a class="nav_alignment_and_style" href="../index.html">About</a>
+        </li>
+        <li>
+          <a class="nav_alignment_and_style" href="./Work_Experience.html"
+            >Work Experience</a
+          >
+        </li>
+        <li><a class="nav_alignment_and_style" href="#">Education</a></li>
+        <li>
+          <a class="nav_alignment_and_style" href="./Achievements.html"
+            >Achievements</a
+          >
+        </li>
+      </ul>
+    </div>
+    <!-- Content -->
+
+    <!-- Table Format using Tr and Td -->
+    <table
+      class="table_flex"
+    >
+      <tr>
+        <td>
+          <div class="college_box red_box_displaced_shadow_left">
+            <p class="college_name"><b>University College Dublin</b></p>
+            <p class="zero_padding_zero_margin"><b>Computer Science</b></p>
+            <p class="zero_padding_zero_margin">Master of Science</p>
+            <p style="opacity: 40%; padding: 10px 0px; margin: 0px">
+              Dublin,Ireland
+            </p>
+            <div>
+              <div class="date_button">
+                <p class="zero_padding_zero_margin date_align">
+                  Sept 2023 - Jan 2025
+                </p>
+              </div>
+            </div>
+          </div>
+        </td>
+        <td rowspan="2">
+          <div>
+            <div class="up_arrow"></div>
+            <div class="vertical_red_line" style="margin-left: 8px;"></div>
+            <div class="circle" style="top: -400px"></div>
+            <div class="circle" style="top: -250px"></div>
+            <div class="circle" style="top: -90px"></div>
+          </div>
+        </td>
+        <td>
+          <div
+            class="college_box red_box_displaced_shadow_right"
+            style="top: 110px"
+          >
+            <p class="college_name"><b>Christ University</b></p>
+            <p class="zero_padding_zero_margin">
+              <b>Mechanical Engineering</b>
+            </p>
+            <p class="zero_padding_zero_margin">
+              Btech <span style="color: red"> ◙ </span> 9.1 <i>CGPA</i>
+            </p>
+            <p style="opacity: 40%; padding: 10px 0px; margin: 0px">
+              Bengaluru,India
+            </p>
+            <div>
+              <div class="date_button">
+                <p class="zero_padding_zero_margin date_align">
+                  Jul 2016 - Mar 2020
+                </p>
+              </div>
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div
+            class="college_box red_box_displaced_shadow_left"
+            style="top: 30px"
+          >
+            <p class="college_name"><b>Bharatiya Vidya Bhavan</b></p>
+            <p class="zero_padding_zero_margin"><b>10th, 12th</b></p>
+            <p class="zero_padding_zero_margin">High School</p>
+            <p style="opacity: 40%; padding: 10px 0px; margin: 0px">
+              Thrissur,India
+            </p>
+            <div>
+              <div class="date_button">
+                <p class="zero_padding_zero_margin date_align">
+                  May 2014 - Apl 2016
+                </p>
+              </div>
+            </div>
+          </div>
+        </td>
+        <td></td>
+      </tr>
+    </table>
+
+     <!-- Footer Tags  -->
+     <hr style="margin-top: 2%">
+     <div class="flex_center_align">
+       <p style="color: white;text-align: center;">
+         "Crafting Tomorrow's Masterpieces, One Pixel at a Time."
+       </p>
+     </div>
+  </body>
+</html>

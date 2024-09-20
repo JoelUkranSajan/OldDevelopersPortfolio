@@ -1,0 +1,37 @@
+.border_white {
+  border: 5px solid white;
+}
+
+.aboutme_frame_class {
+  padding: 0px;
+  margin: 0px;
+  height: auto;
+  overflow: hidden;
+}
+
+.rotate-image {
+  padding: 0px;
+  margin: 0px;
+  height: 45%;
+  width: 45%;
+  max-height: 300px;
+  max-width: 300px;
+  transform-style: preserve-3d;
+  transition: 0.5s ease-in-out;
+  filter: grayscale(100%);
+  overflow: hidden;
+  position: relative;
+  z-index: -100;
+}
+
+.images_frame {
+  display: flex;
+  z-index: -1;
+  flex-wrap: wrap;
+  position: absolute;
+  justify-content: center;
+  margin-top: 30%;
+  opacity: 0.2;
+  max-height: 200%;
+  overflow: hidden;
+}
